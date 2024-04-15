@@ -1,0 +1,12 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:42:00.859859 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.36152: Flags [P.], seq 3764204429:3764204537, ack 1609527525, win 501, options [nop,nop,TS val 843987476 ecr 3768110962], length 108
+18:42:00.860157 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.36152: Flags [P.], seq 108:252, ack 1, win 501, options [nop,nop,TS val 843987476 ecr 3768110962], length 144
+18:42:00.860258 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.36152: Flags [P.], seq 252:288, ack 1, win 501, options [nop,nop,TS val 843987476 ecr 3768110962], length 36
+18:42:00.861528 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.45669 > 67.207.67.2.domain: 9597+ [1au] PTR? 164.17.146.184.in-addr.arpa. (56)
+18:42:00.861649 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.57830 > 67.207.67.2.domain: 20046+ [1au] PTR? 164.17.146.184.in-addr.arpa. (56)
+5 packets captured
+46 packets received by filter
+10 packets dropped by kernel
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# 

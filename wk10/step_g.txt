@@ -1,0 +1,1 @@
+To avoid comments showing in the HTML I would write PHP comments that are not rendered in the front end.

@@ -1,0 +1,12 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# traceroute simonbermudez.com
+traceroute to simonbermudez.com (66.198.240.15), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.4.4 (10.78.4.4)  0.848 ms 10.78.6.91 (10.78.6.91)  0.681 ms 10.78.4.6 (10.78.4.6)  0.810 ms
+ 3  138.197.249.86 (138.197.249.86)  0.879 ms  1.045 ms  1.005 ms
+ 4  toro-b1-link.ip.twelve99.net (62.115.55.29)  1.740 ms  1.705 ms toro-b1-link.ip.twelve99.net (62.115.9.209)  1.445 ms
+ 5  toro-b2-link.ip.twelve99.net (62.115.117.229)  1.271 ms  1.296 ms  1.249 ms
+ 6  nyk-bb2-link.ip.twelve99.net (62.115.123.108)  12.248 ms  12.127 ms  12.002 ms
+ 7  det-b2-link.ip.twelve99.net (62.115.113.35)  30.084 ms  30.013 ms  29.805 ms
+ 8  a2hosting-ic-332169-det-b1.ip.twelve99-cust.net (213.248.83.253)  30.094 ms  29.692 ms  29.648 ms
+ 9  te13-1.R1.MI3.a2webhosting.com (75.98.175.253)  30.780 ms  30.747 ms  30.776 ms
+10  a2ss32.a2hosting.com (66.198.240.15)  30.117 ms  30.013 ms  29.894 ms

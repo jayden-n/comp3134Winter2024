@@ -1,0 +1,3 @@
+hping3 localhost -c 10000 --rand-source
+hping3 localhost -c 9000 -t 90 --udp --spoof 10.10.10.10
+hping3 localhost -c 11000 -d 1024 -i u75 --icmp

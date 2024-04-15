@@ -1,0 +1,26 @@
+• What is the definition of server port?
+
+A port number is a way to identify a specific process to which an internet or other network message is to be forwarded when it arrives at a server.
+All network-connected devices come equipped with standardized ports that have an assigned number. These numbers are reserved for certain protocols
+and their associated function. Hypertext Transfer Protocol (HTTP) messages, for example, always go to port 80 -- one of the most commonly used ports.
+
+• What is server port range?
+
+0 to 65535
+
+• How many bits does number above represent?
+
+16 bits
+
+• State 10 common server ports
+
+80 - HTTP
+20 - FTP (Data)
+21 - FTP (Protocol)
+22 - SSH
+25 - SMTP
+220 - IMAP (Interactive Mail Access Protocol)
+443 - HTTPS
+53 - DNS
+5900 - VNC
+3389 - RDP (Windows)

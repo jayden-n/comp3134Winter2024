@@ -1,0 +1,57 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap simonbermudez.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-17 23:44 UTC
+Nmap scan report for simonbermudez.com (66.198.240.15)
+Host is up (0.030s latency).
+rDNS record for 66.198.240.15: a2ss32.a2hosting.com
+Not shown: 917 filtered ports, 70 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+53/tcp   open  domain
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+443/tcp  open  https
+465/tcp  open  smtps
+587/tcp  open  submission
+993/tcp  open  imaps
+995/tcp  open  pop3s
+2525/tcp open  ms-v-worlds
+3306/tcp open  mysql
+5432/tcp open  postgresql
+
+Nmap done: 1 IP address (1 host up) scanned in 3.95 seconds
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap -p 80 georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-17 23:44 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.037s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap -p 0-1024 google.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-17 23:44 UTC
+Nmap scan report for google.com (142.251.41.78)
+Host is up (0.0015s latency).
+Other addresses for google.com (not scanned): 2607:f8b0:400b:80c::200e
+rDNS record for 142.251.41.78: yyz10s20-in-f14.1e100.net
+Not shown: 1023 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.08 seconds
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# nmap -F digitalocean.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-01-17 23:45 UTC
+Nmap scan report for digitalocean.com (104.16.181.15)
+Host is up (0.0018s latency).
+Other addresses for digitalocean.com (not scanned): 104.16.182.15 2606:4700::6810:b50f 2606:4700::6810:b60f
+Not shown: 96 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 1.95 seconds

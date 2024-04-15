@@ -1,0 +1,6 @@
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 dst 50.116.66.139
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+^X^Z
+[17]+  Stopped                 tcpdump -i eth0 dst 50.116.66.139
+root@lamponubuntu2004-s-1vcpu-1gb-tor1-01:~# 

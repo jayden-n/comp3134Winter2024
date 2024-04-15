@@ -1,0 +1,97 @@
+Command: tcpdump -i any > all_traffic_20220310_0950.txt
+
+INSIDE THE FILE: 
+
+02:51:38.674218 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.47358: Flags [P.], seq 2988824255:2988824363, ack 719816433, win 501, options [nop,nop,TS val 3724565290 ecr 3475750800], length 108
+02:51:38.674401 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.47358: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 3724565290 ecr 3475750800], length 36
+02:51:38.674541 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.47358: Flags [P.], seq 144:260, ack 1, win 501, options [nop,nop,TS val 3724565291 ecr 3475750800], length 116
+02:51:38.674672 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.47358: Flags [P.], seq 260:296, ack 1, win 501, options [nop,nop,TS val 3724565291 ecr 3475750800], length 36
+02:51:38.679150 IP bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.47358 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 2776, options [nop,nop,TS val 3475750812 ecr 3724565290], length 0
+02:51:38.679150 IP bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.47358 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144, win 2776, options [nop,nop,TS val 3475750812 ecr 3724565290], length 0
+02:51:38.679150 IP bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.47358 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 260, win 2776, options [nop,nop,TS val 3475750813 ecr 3724565291], length 0
+02:51:38.679150 IP bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca.47358 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 296, win 2776, options [nop,nop,TS val 3475750813 ecr 3724565291], length 0
+02:51:39.701170 IP localhost.46548 > localhost.domain: 51687+ [1au] PTR? 164.17.146.184.in-addr.arpa. (56)
+02:51:39.702103 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.37838 > 67.207.67.2.domain: 12972+ [1au] PTR? 164.17.146.184.in-addr.arpa. (56)
+02:51:39.702246 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.58624 > 67.207.67.2.domain: 1004+ [1au] PTR? 164.17.146.184.in-addr.arpa. (56)
+02:51:39.702393 IP localhost.domain > localhost.46548: 51687 1/0/1 PTR bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca. (125)
+02:51:39.702698 IP localhost.50335 > localhost.domain: 59460+ [1au] PTR? 109.34.203.159.in-addr.arpa. (56)
+02:51:39.703018 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.59022 > 67.207.67.2.domain: 28011+ [1au] PTR? 109.34.203.159.in-addr.arpa. (56)
+02:51:39.703138 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.54097 > 67.207.67.2.domain: 49540+ [1au] PTR? 109.34.203.159.in-addr.arpa. (56)
+02:51:39.703351 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.36293 > 67.207.67.2.domain: 17229+ [1au] PTR? 109.34.203.159.in-addr.arpa. (56)
+02:51:39.703663 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.58624: 1004 1/0/1 PTR bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca. (125)
+02:51:39.703731 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 udp port 58624 unreachable, length 161
+02:51:39.703764 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.37838: 12972 1/0/1 PTR bras-base-toroon0560w-grc-73-184-146-17-164.dsl.bell.ca. (125)
+02:51:39.703764 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.36293: 17229 NXDomain 0/1/1 (123)
+02:51:39.703791 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 udp port 37838 unreachable, length 161
+02:51:39.703965 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.36293 > 67.207.67.2.domain: 17229+ PTR? 109.34.203.159.in-addr.arpa. (45)
+02:51:39.704079 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.59022: 28011 NXDomain 0/1/1 (123)
+02:51:39.704079 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.54097: 49540 NXDomain 0/1/1 (123)
+02:51:39.704280 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.59022 > 67.207.67.2.domain: 28011+ PTR? 109.34.203.159.in-addr.arpa. (45)
+02:51:39.704314 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.36293: 17229 NXDomain 0/1/0 (112)
+02:51:39.704417 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.54097 > 67.207.67.2.domain: 49540+ PTR? 109.34.203.159.in-addr.arpa. (45)
+02:51:39.704675 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.59022: 28011 NXDomain 0/1/0 (112)
+02:51:39.704789 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.54097: 49540 NXDomain 0/1/0 (112)
+02:51:39.705392 IP localhost.domain > localhost.50335: 59460 2/0/1 PTR lamponubuntu2004-s-1vcpu-1gb-tor1-01., PTR lamponubuntu2004-s-1vcpu-1gb-tor1-01.local. (162)
+02:51:40.329555 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [S], seq 2085530657, win 64240, options [mss 1460,sackOK,TS val 992403247 ecr 0,nop,wscale 7], length 0
+02:51:40.329647 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [S.], seq 2883760807, ack 2085530658, win 65160, options [mss 1460,sackOK,TS val 6779629 ecr 992403247,nop,wscale 7], length 0
+02:51:40.350988 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 992403269 ecr 6779629], length 0
+02:51:40.373506 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 6779672 ecr 992403269], length 41
+02:51:40.395687 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 42, win 502, options [nop,nop,TS val 992403312 ecr 6779672], length 0
+02:51:40.395688 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:22, ack 42, win 502, options [nop,nop,TS val 992403312 ecr 6779672], length 21
+02:51:40.395759 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [.], ack 22, win 510, options [nop,nop,TS val 6779695 ecr 992403312], length 0
+02:51:40.398421 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [P.], seq 42:1098, ack 22, win 510, options [nop,nop,TS val 6779697 ecr 992403312], length 1056
+02:51:40.422741 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 22:462, ack 1098, win 501, options [nop,nop,TS val 992403339 ecr 6779697], length 440
+02:51:40.422822 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [.], ack 462, win 507, options [nop,nop,TS val 6779722 ecr 992403339], length 0
+02:51:40.626130 IP 119.93.18.165.static.pldt.net.49629 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.microsoft-ds: Flags [S], seq 1658154527, win 8192, options [mss 1412,nop,nop,sackOK], length 0
+02:51:40.670901 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 462:510, ack 1098, win 501, options [nop,nop,TS val 992403589 ecr 6779722], length 48
+02:51:40.670986 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [.], ack 510, win 507, options [nop,nop,TS val 6779970 ecr 992403589], length 0
+02:51:40.683751 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [P.], seq 1098:1378, ack 510, win 507, options [nop,nop,TS val 6779983 ecr 992403589], length 280
+02:51:40.724483 IP localhost.51390 > localhost.domain: 17860+ [1au] PTR? 53.0.0.127.in-addr.arpa. (52)
+02:51:40.724764 IP localhost.domain > localhost.51390: 17860 1/0/1 PTR localhost. (75)
+02:51:40.725078 IP localhost.34648 > localhost.domain: 39211+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+02:51:40.725560 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.55735 > 67.207.67.2.domain: 20654+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+02:51:40.725686 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.51241 > 67.207.67.2.domain: 47747+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+02:51:40.725817 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.59920 > 67.207.67.2.domain: 48956+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+02:51:40.726164 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.51241: 47747 NXDomain 0/1/1 (120)
+02:51:40.726165 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.55735: 20654 NXDomain 0/1/1 (120)
+02:51:40.726241 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.59920: 48956 NXDomain 0/1/1 (120)
+02:51:40.726344 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.51241 > 67.207.67.2.domain: 47747+ PTR? 2.67.207.67.in-addr.arpa. (42)
+02:51:40.726543 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.55735 > 67.207.67.2.domain: 20654+ PTR? 2.67.207.67.in-addr.arpa. (42)
+02:51:40.726663 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.51241: 47747 NXDomain 0/1/0 (109)
+02:51:40.726677 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.59920 > 67.207.67.2.domain: 48956+ PTR? 2.67.207.67.in-addr.arpa. (42)
+02:51:40.726969 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.55735: 20654 NXDomain 0/1/0 (109)
+02:51:40.727021 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.59920: 48956 NXDomain 0/1/0 (109)
+02:51:40.727460 IP localhost.domain > localhost.34648: 39211 NXDomain 0/0/1 (53)
+02:51:40.727881 IP localhost.54294 > localhost.domain: 38862+ [1au] PTR? 149.139.36.8.in-addr.arpa. (54)
+02:51:40.728423 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.40334 > 67.207.67.2.domain: 48301+ [1au] PTR? 149.139.36.8.in-addr.arpa. (54)
+02:51:40.728565 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.52396 > 67.207.67.2.domain: 13180+ [1au] PTR? 149.139.36.8.in-addr.arpa. (54)
+02:51:40.728681 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.44424 > 67.207.67.2.domain: 37369+ [1au] PTR? 149.139.36.8.in-addr.arpa. (54)
+02:51:40.729388 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.52396: 13180 NXDomain 0/1/1 (108)
+02:51:40.729445 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.44424: 37369 NXDomain 0/1/1 (108)
+02:51:40.729577 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.52396 > 67.207.67.2.domain: 13180+ PTR? 149.139.36.8.in-addr.arpa. (43)
+02:51:40.729694 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.44424 > 67.207.67.2.domain: 37369+ PTR? 149.139.36.8.in-addr.arpa. (43)
+02:51:40.729982 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.52396: 13180 NXDomain 0/1/0 (97)
+02:51:40.730240 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.44424: 37369 NXDomain 0/1/0 (97)
+02:51:40.746713 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1378, win 501, options [nop,nop,TS val 992403665 ecr 6779983], length 0
+02:51:40.776875 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.40334: 48301 NXDomain 0/1/1 (108)
+02:51:40.777305 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.40334 > 67.207.67.2.domain: 48301+ PTR? 149.139.36.8.in-addr.arpa. (43)
+02:51:40.777894 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.40334: 48301 NXDomain 0/1/0 (97)
+02:51:40.778428 IP localhost.domain > localhost.54294: 38862 NXDomain 0/0/1 (54)
+02:51:40.778953 IP localhost.50019 > localhost.domain: 50418+ [1au] PTR? 165.18.93.119.in-addr.arpa. (55)
+02:51:40.779522 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.46809 > 67.207.67.2.domain: 7608+ [1au] PTR? 165.18.93.119.in-addr.arpa. (55)
+02:51:40.779669 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.45285 > 67.207.67.2.domain: 2812+ [1au] PTR? 165.18.93.119.in-addr.arpa. (55)
+02:51:40.779785 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.60475 > 67.207.67.2.domain: 32355+ [1au] PTR? 165.18.93.119.in-addr.arpa. (55)
+02:51:41.196324 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.60475: 32355 1/0/1 PTR 119.93.18.165.static.pldt.net. (98)
+02:51:41.196758 IP localhost.domain > localhost.50019: 50418 1/0/1 PTR 119.93.18.165.static.pldt.net. (98)
+02:51:41.198683 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.46809: 7608 1/0/1 PTR 119.93.18.165.static.pldt.net. (98)
+02:51:41.198733 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 udp port 46809 unreachable, length 134
+02:51:41.204414 IP 67.207.67.2.domain > lamponubuntu2004-s-1vcpu-1gb-tor1-01.45285: 2812 1/0/1 PTR 119.93.18.165.static.pldt.net. (98)
+02:51:41.204465 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01 > 67.207.67.2: ICMP lamponubuntu2004-s-1vcpu-1gb-tor1-01 udp port 45285 unreachable, length 134
+02:51:41.725599 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 510:526, ack 1378, win 501, options [nop,nop,TS val 992404643 ecr 6779983], length 16
+02:51:41.725684 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [.], ack 526, win 507, options [nop,nop,TS val 6781025 ecr 992404643], length 0
+02:51:41.746229 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 526:578, ack 1378, win 501, options [nop,nop,TS val 992404664 ecr 6781025], length 52
+02:51:41.746296 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [.], ack 578, win 507, options [nop,nop,TS val 6781045 ecr 992404664], length 0
+02:51:41.746489 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [P.], seq 1378:1430, ack 578, win 507, options [nop,nop,TS val 6781045 ecr 992404664], length 52
+02:51:41.767362 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1430, win 501, options [nop,nop,TS val 992404685 ecr 6781045], length 0
+02:51:41.770696 IP 8.36.139.149.52658 > lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 578:662, ack 1430, win 501, options [nop,nop,TS val 992404689 ecr 6781045], length 84
+02:51:41.812433 IP lamponubuntu2004-s-1vcpu-1gb-tor1-01.ssh > 8.36.139.149.52658: Flags [.], ack 662, win 507, options [nop,nop,TS val 6781111 ecr 992404689], length 0

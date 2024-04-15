@@ -1,0 +1,1 @@
+Here I noticed the essential structure we are using to ensure that the requests are cominng from a valid session. We made  aphp file to GET the sessionn var and retrieve it but in the php(form.php) we are creating the variable and sending as ahidden form field val for security. 

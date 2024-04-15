@@ -1,0 +1,76 @@
+simonbermudez.com
+
+IP: 66.198.240.15
+
+GEOLOCATION:
+
+Country: US
+Region: Michigan
+City: Detroit
+Latitude: 42.33143
+Longitude: -83.04575
+Postal code: 48201
+Time zone offset by UTC: -05:00
+Geoname ID: 4990729
+
+___________________________________
+
+google.com
+
+IP: 172.217.13.110
+
+GEOLOCATION:
+
+Country: US
+Region: California
+City: Los Angeles
+Latitude: 34.05223
+Longitude: -118.24368
+Postal code: 90001
+Time zone offset by UTC: -08:00
+Geoname ID: 5368361
+
+___________________________________
+
+facebook.com
+
+IP: 157.240.241.35
+
+GEOLOCATION:
+
+Country: US
+Region: California
+City: Los Angeles
+Latitude: 34.05223
+Longitude: -118.24368
+Postal code: 90001
+Time zone offset by UTC: -08:00
+Geoname ID: 5368361
+
+___________________________________
+
+georgebrown.ca
+
+IP: 99.79.139.11
+
+Country: CA
+Region: Ontario
+City: ByWard Market
+Latitude: 45.4271
+Longitude: -75.69234
+Time zone offset by UTC: -05:00
+Geoname ID: 7626289
+
+___________________________________
+
+twitter.com
+
+GEOLOCATION:
+
+Country: US
+Region: California
+City: South Market
+Latitude: 37.77757
+Longitude: -122.40435
+Time zone offset by UTC: -08:00
+Geoname ID: 7838987
